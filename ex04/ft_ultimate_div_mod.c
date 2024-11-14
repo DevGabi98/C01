@@ -1,40 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vhacman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/12 11:02:58 by vhacman           #+#    #+#             */
-/*   Updated: 2024/11/14 15:53:46 by vhacman          ###   ########.fr       */
+/*   Created: 2024/11/14 15:44:39 by vhacman           #+#    #+#             */
+/*   Updated: 2024/11/14 16:25:52 by vhacman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-<#include <stdio.h>
+#include <unistd.h>
 
-void	ft_swap(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-	int	temp;
+	char	temp;
 
 	temp = *a;
-	*a = *b;
-	*b = temp;
+	*a = temp / *b;
+	*b = temp % *b;
 }
 
-/*
 int	main(void)
 {
-	int prova1;
-	int prova2;
-
-	prova1 = 3;
-	prova2 = 5;
-
-	printf ("questi e prova1: %d\n", prova1);
-	printf ("questi e prova2: %d\n", prova2);
-	ft_swap (&prova1, &prova2);
-	printf ("questi e prova1: %d\n", prova1);
-        printf ("questi e prova2: %d\n", prova2);
+	int	a;
+	int	b;
+	
+	a = 10;
+	b = 2;
+	ft_ultimate_div_mod(&a, &b);
 	return (0);
 }
-*/
