@@ -6,11 +6,12 @@
 /*   By: vhacman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 15:44:39 by vhacman           #+#    #+#             */
-/*   Updated: 2024/11/14 16:25:52 by vhacman          ###   ########.fr       */
+/*   Updated: 2024/11/14 16:31:19 by vhacman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdio.h>
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {
@@ -29,5 +30,7 @@ int	main(void)
 	a = 10;
 	b = 2;
 	ft_ultimate_div_mod(&a, &b);
+	printf("a = %d, b = %d", a, b);
+
 	return (0);
 }
