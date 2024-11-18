@@ -35,5 +35,4 @@ int	main(void)
 	printf("Value of nbr: %d\n, n", numero_prova);
 	return (0);
 	}
-
 }*/

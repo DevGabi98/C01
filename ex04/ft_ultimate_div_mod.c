@@ -6,7 +6,7 @@
 /*   By: vhacman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 15:44:39 by vhacman           #+#    #+#             */
-/*   Updated: 2024/11/14 16:31:19 by vhacman          ###   ########.fr       */
+/*   Updated: 2024/11/18 10:09:32 by vhacman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*a = temp / *b;
 	*b = temp % *b;
 }
-
+/*
 int	main(void)
 {
 	int	a;
@@ -33,4 +33,4 @@ int	main(void)
 	printf("a = %d, b = %d", a, b);
 
 	return (0);
-}
+}*/

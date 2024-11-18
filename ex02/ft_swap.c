@@ -6,11 +6,11 @@
 /*   By: vhacman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 11:02:58 by vhacman           #+#    #+#             */
-/*   Updated: 2024/11/14 15:53:46 by vhacman          ###   ########.fr       */
+/*   Updated: 2024/11/18 15:15:18 by vhacman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-<#include <stdio.h>
+#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {

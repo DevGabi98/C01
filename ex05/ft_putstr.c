@@ -6,7 +6,7 @@
 /*   By: vhacman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 17:13:53 by vhacman           #+#    #+#             */
-/*   Updated: 2024/11/14 17:58:34 by vhacman          ###   ########.fr       */
+/*   Updated: 2024/11/18 10:10:45 by vhacman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-
+/*
 int	main(void)
 {
 	char str[]=  "Hello world";
 	ft_putstr(str);
 	return(0);
-}
+}*/
